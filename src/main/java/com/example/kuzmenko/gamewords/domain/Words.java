@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Words {
 
-  private List<String> words = new ArrayList<>();
+  private final List<String> words = new ArrayList<>();
 
   public Words() {
   }
@@ -14,7 +14,4 @@ public class Words {
     return words;
   }
 
-  public void setWords(List<String> words) {
-    this.words = words;
-  }
 }
